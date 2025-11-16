@@ -138,7 +138,7 @@
                 });
                 
                 const result = await response.json();
-                
+                console.log("result", result)
                 if (result.success) {
                     resultText.textContent = `Prediction: ${result.prediction_text}`;
                     if (result.prediction_value === 1) {
