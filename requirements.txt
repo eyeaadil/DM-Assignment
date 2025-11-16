@@ -9,3 +9,4 @@ flask-cors==3.0.10
 xgboost==1.7.6
 joblib==1.2.0
 gunicorn
+Werkzeug==2.3.8
